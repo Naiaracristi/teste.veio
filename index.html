@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Orçamento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Nei Orçamentos</h1>
+
+    <p class="aviso">
+      <strong>Atenção:</strong>
+      Esses Valores podem ser alterados a qualquer momento, mediante a pedido.
+    </p>
+
+    <form id="formServico">
+      <label for="nomeCliente">Cliente</label>
+      <input type="text" id="nomeCliente" required />
+
+      <label for="dataOrcamento">Data</label>
+      <input type="date" id="dataOrcamento" required />
+
+      <h3>Tipo de Serviço</h3>
+
+      <div id="linhasServico"></div>
+      <button type="button" id="btnAddLinhaServico" class="secundario">
+        Adicionar Serviço
+      </button>
+
+      <button type="submit">Gerar orçamento</button>
+    </form>
+
+    <div id="resumoOrcamento" style="display: none"></div>
+
+    <button id="btnImprimir" style="display: none">Gerar PDF</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
