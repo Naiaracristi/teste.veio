@@ -1,0 +1,25 @@
+# Teste.Veio
+
+Projeto de calculadora de orçamento de serviços, feito com HTML, CSS e JavaScript puro.
+
+## Funcionalidades
+
+- Adicionar múltiplas linhas de serviço dinamicamente
+- Calcular subtotal com base em metragem (opcional) e valor
+- Gerar resumo do orçamento com data e cliente
+- Salvar dados automaticamente em planilha do Google Sheets
+- Opção de imprimir o orçamento gerado
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Google Apps Script (para integração com planilha)
+
+## Como usar
+
+1. Abra o arquivo `index.html` no navegador
+2. Preencha os dados do cliente e as linhas de serviço
+3. Clique em "Gerar Orçamento"
+4. Se desejar, clique em "Imprimir"
